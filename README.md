@@ -5,6 +5,9 @@
 ## Build Setup
 
 ``` bash
+# clone git project
+git clone git@github.com:hslhushaolong/management.git
+
 # install dependencies
 npm install
 
