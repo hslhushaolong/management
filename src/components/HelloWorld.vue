@@ -78,18 +78,24 @@
         >
           awesome-vue
         </a>
+        <ab></ab>
       </li>
     </ul>
   </div>
 </template>
 
 <script>
+import ab from './a.vue';
+
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components:{
+    ab:ab
   }
 }
 </script>
